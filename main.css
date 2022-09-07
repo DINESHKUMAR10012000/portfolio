@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 725px;
+    position: relative;
+}
+ul{
+    position: absolute;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    float: left;
+    margin-left: -201px;
+    margin-top: 419px;
+}
+li{
+    display: inline-block;
+    margin-top: 100px;
+}
+ul li a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.name{
+    display: inline;
+    line-height: 108px;
+    margin-left: 96px;
+}
+span{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 216px;
+}
+section{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+}
+.header{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 134px;
+}
+.container_two{
+    display: flex;
+    width: 100%;
+  }
+  .newsblog{
+      width: 100%;
+      padding: 25px;
+      margin-top: 10px;
+      text-align: left;
+  }
+  h3{
+      font-size: 20px;
+      font-family: 'Manrope';
+  }
+  .newsblog .newshead h2{
+      margin-left: 30px;
+      color: rgb(0, 59, 117);
+  }
+  .newsblog .newshead article{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .newsblog .newshead article .news{
+      width: 30%;
+  }
+  .newsblog .newshead article .news img{
+      width: 100%;
+      margin-left: 30px;
+  }
+  .newsblog .newshead article .news .btn{
+      margin-left: 30px;
+      margin-top: 10px;
+  }
+  .newsblog .newshead article .news .btn .Js{
+  
+          background-color: black; 
+          border: none;
+          color: white;
+          padding: 10px 22px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          margin: 4px 2px;
+          cursor: pointer; 
+          border-radius: 10px;  
+  }
+  .newsblog .newshead article .news .btn .Css{
+  
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer; 
+        border-radius: 10px;  
+  }
+  .newsblog .newshead article .news .btn .Html{
+  
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer; 
+        border-radius: 10px;  
+  }
+  .newsblog .newshead article .news header{
+      font-family: 'Manrope';
+      font-size: 18px;
+      font-weight: 800;
+      margin:10px;
+      margin-left: 30px;
+      color: rgb(3, 58, 160);
+  }
+  .newsblog .newshead article .news .text{
+      font-family: 'Manrope';
+      margin-left: 25px;
+      padding: 10px;
+  }
+  .newsblog .newshead article .news  a{
+      color: darkgrey;
+      margin-left: 30px;
+      border-bottom: 1px dotted grey;
+      padding-bottom: 10px;
+  }
+.dd{
+    font-family: 'Manrope';
+} 
+.photo {
+    border-radius: 50%;
+  }
+
+.container_three{
+  display: flex;
+  width: 100%;
+}
+.aboutus{
+  width: 100%;
+  padding: 25px;
+  margin-top: 10px;
+  text-align: left;
+}
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 35px;
+  cursor: pointer;
+}
+.card2 {
+  height: 178px;
+  width: 275px;
+  cursor: pointer;
+}
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+.parentDiv {
+  display: block;
+  height: 110px;
+  width: 400px;
+  font-size: 30px;
+}
+
+/* To set icon at the right side of the div*/
+.icon {
+  margin-left: 10px;
+  float: left;
+  padding: 5px;
+}
+
+.text{
+  width: 175px;
+  padding: 5px;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+.text1{
+  font-family: 'Manrope';
+  padding-left: 38px;
+  font-size: 9px;
+}
+
+.text2{
+  font-family: 'Manrope';
+  width: 175px;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.text12{
+  padding-left: 5px;
+  font-size: 9px;
+  margin-left: 10px;
+}
+.text5{
+    font-family: 'Manrope';
+}
+.ss1 {
+  border: 1px solid rgba(63, 63, 63, 0.3);;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.vl {
+  border-left: 2px solid  rgba(63, 63, 63, 0.3);
+  height: 178px;
+  position: absolute;
+}
+.text6{
+  text-align: center;
+  font-family: 'Manrope';
+  margin-top: 30px;
+}
+.icon1{
+  display: inline-block;
+}
+.dd{
+ align-content: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.icon1{
+  margin: 15px;
+}
+.icon2{
+  margin: 15px;
+}
+.icon3{
+  margin: 15px;
+}
+.icon4{
+  margin: 15px;
+}
+.icon5{
+  margin: 15px;
+}
